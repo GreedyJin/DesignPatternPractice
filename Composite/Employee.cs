@@ -5,6 +5,7 @@ namespace Composite
     class Employee
     {
         private string Name { get; set; }
+		private int Age { get; set; }
         private string Department { get; set; }
         private decimal Salary { get; set; }
         private List<Employee> Subordinates { get; set; }
